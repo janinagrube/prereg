@@ -3,7 +3,7 @@ title           : "Generalized Systematic Review preregistration template (Van d
 shorttitle      : "Generalized Systematic Review preregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
-author: 
+author:
   - name        : First Author
     affiliation : 1
   - name        : Ernst-August Doelle
@@ -23,20 +23,20 @@ output: prereg::prereg_pdf
 
 ## Intended use
 
-<!-- This Generalized Systematic Review Registration Form is intended as a general-purpose registration form. The form is designed to be applicable to reviews across disciplines (i.e., psychology, economics, law, physics, or any other field) and across review types (i.e., scoping review, review of qualitative studies, meta-analysis, or any other type of review). That means that the reviewed records may include research reports as well as archive documents, case law, books, poems, etc. This form, therefore, is a fall-back for more specialized forms and can be used if no specialized form or registration platform is available. Below are some currently available specialized registration tools you may consider:--> 
+<!-- This Generalized Systematic Review Registration Form is intended as a general-purpose registration form. The form is designed to be applicable to reviews across disciplines (i.e., psychology, economics, law, physics, or any other field) and across review types (i.e., scoping review, review of qualitative studies, meta-analysis, or any other type of review). That means that the reviewed records may include research reports as well as archive documents, case law, books, poems, etc. This form, therefore, is a fall-back for more specialized forms and can be used if no specialized form or registration platform is available. Below are some currently available specialized registration tools you may consider: -->
 
 ### Specialized registration platform
 
-<!-- PROSPERO is a free database of health-related systematic review protocols for health-related outcomes. --> 
+<!-- PROSPERO is a free database of health-related systematic review protocols for health-related outcomes. -->
 
 
 ## Specialized guidance
 
 <!-- Consider using the following guidelines when completing your registration:  -->
 - The Non-Interventional, Reproducible, and Open (NIRO) Systematic Reviews guideline, which includes fields specific to non-interventional reviews: https://osf.io/f3brw/
-- Methodological Expectations of Cochrane Intervention Reviews (MECIR): CID: 20.500.12592/vxj0sb 
+- Methodological Expectations of Cochrane Intervention Reviews (MECIR): CID: 20.500.12592/vxj0sb
 - Methodological Expectations of Campbell Collaboration Intervention Reviews (MECCIR): https://www.campbellcollaboration.org/meccir.html
-- Preferred Reporting Items for Systematic reviews and Meta-Analysis Protocols (PRISMA-P): https://doi.org/gcpzzq 
+- Preferred Reporting Items for Systematic reviews and Meta-Analysis Protocols (PRISMA-P): https://doi.org/gcpzzq
 - Preferred Reporting Items for Systematic reviews and Meta-Analyses literature Search extension (PRISMA-S): https://doi.org/gh2z2k
 - Peer Review of Electronic Search Strategies (PRESS): https://doi.org/10.1016/j.jclinepi.2016.01.021
 
@@ -49,7 +49,7 @@ Nonetheless, these reporting guidelines do partly capture the same information a
 
 ## Instructions for effectively using the form
 
-<!-- To align with general use and open science best practice, all items are mandatory. Completion makes your registration more useful for readers, funders, and others, so check carefully whether you did not accidentally omit an item. If an item asks about a procedure you do not plan to use or is not applicable, indicate that in the corresponding field (including, ideally, the underlying reason). 
+<!-- To align with general use and open science best practice, all items are mandatory. Completion makes your registration more useful for readers, funders, and others, so check carefully whether you did not accidentally omit an item. If an item asks about a procedure you do not plan to use or is not applicable, indicate that in the corresponding field (including, ideally, the underlying reason).
 You should be transparent about any deviations from the preregistration and provide the rationale for these deviations in your final review. If you already foresee some deviations when filling out the form (e.g., you anticipate that you will not have enough studies in a moderator group), provide a contingency plan for these deviations in the relevant parts of the registration. -->
 
 
@@ -139,7 +139,7 @@ Enter your response here.
 
 
 ## Independent variable(s) / intervention(s) / treatment(s)
- 
+
 <!-- If this review’s research question(s) concerns one or more associations or effects, list the variable(s) that theoretically cause them or are assumed to otherwise explain the dependent variable(s) / outcome(s). If this is a manipulation, treatment, or intervention, make sure to describe it in full: that means also describing all groups, including any control group(s) or comparator(s). -->
 
 Enter your response here.
@@ -412,7 +412,7 @@ Enter your response here.
 
 Enter your response here.
 
- 
+
 # Synthesis and Quality Assessment
 
 <!-- In this section, you register the procedure for the review’s synthesis: the procedure you designed to use the data that was extracted from each source to answer your research question(s). This often includes transforming the raw extracted data, verifying validity, applying predefined inference criteria, interpreting results, and presenting results. Additionally, you register procedures you designed to assess bias in individual sources and the synthesis itself. -->
