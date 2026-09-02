@@ -1,0 +1,443 @@
+---
+title           : "Generalized Systematic Review preregistration template (Van den Akker et al., 2023)"
+shorttitle      : "Generalized Systematic Review preregistration"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author:
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::prereg_pdf
+---
+
+<!-- # Landing Page
+
+
+## Intended use
+This Generalized Systematic Review Registration Form is intended as a general-purpose registration form. The form is designed to be applicable to reviews across disciplines (i.e., psychology, economics, law, physics, or any other field) and across review types (i.e., scoping review, review of qualitative studies, meta-analysis, or any other type of review). That means that the reviewed records may include research reports as well as archive documents, case law, books, poems, etc. This form, therefore, is a fall-back for more specialized forms and can be used if no specialized form or registration platform is available. Below are some currently available specialized registration tools you may consider:
+
+### Specialized registration platform
+PROSPERO is a free database of health-related systematic review protocols for health-related outcomes.
+
+
+## Specialized guidance
+- Consider using the following guidelines when completing your registration:
+- The Non-Interventional, Reproducible, and Open (NIRO) Systematic Reviews guideline, which includes fields specific to non-interventional reviews: https://osf.io/f3brw/
+- Methodological Expectations of Cochrane Intervention Reviews (MECIR): CID: 20.500.12592/vxj0sb
+- Methodological Expectations of Campbell Collaboration Intervention Reviews (MECCIR): https://www.campbellcollaboration.org/meccir.html
+- Preferred Reporting Items for Systematic reviews and Meta-Analysis Protocols (PRISMA-P): https://doi.org/gcpzzq
+- Preferred Reporting Items for Systematic reviews and Meta-Analyses literature Search extension (PRISMA-S): https://doi.org/gh2z2k
+- Peer Review of Electronic Search Strategies (PRESS): https://doi.org/10.1016/j.jclinepi.2016.01.021
+
+
+## Relation to reporting guidelines
+Many disciplines have developed reporting guidelines for specific types of reviews (e.g., ROSES: the RepOrting standards for Systematic Evidence Syntheses in environmental research, and PRISMA: the Preferred Reporting Items for Systematic Reviews and Meta-Analyses). Whereas reporting guidelines were optimized for application after conclusion of a systematic review, this form was optimized to publicly register (‘freeze’) the research plans (or to record adjustments to research plans) before (or during) a systematic review. These different end goals resulted in different choices regarding included items. For example, this form includes a number of questions about planning that are important for a registration but typically are not included in reporting guidelines. 
+Nonetheless, these reporting guidelines do partly capture the same information as registration forms. For each item in this form, we specified the corresponding PRISMA item (PRISMA items P1-P22 and P25-27 were applicable; P16-P23 cover reporting of results and P24 refers to registration forms like this). Researchers planning to use a specific reporting standard to report the results of their review, should enter the information required by that reporting standard in the corresponding (overarching) fields of this form.
+
+## Instructions for effectively using the form
+To align with general use and open science best practice, all items are mandatory. Completion makes your registration more useful for readers, funders, and others, so check carefully whether you did not accidentally omit an item. If an item asks about a procedure you do not plan to use or is not applicable, indicate that in the corresponding field (including, ideally, the underlying reason).
+You should be transparent about any deviations from the preregistration and provide the rationale for these deviations in your final review. If you already foresee some deviations when filling out the form (e.g., you anticipate that you will not have enough studies in a moderator group), provide a contingency plan for these deviations in the relevant parts of the registration.
+
+
+## Planned improvements / extensions
+The aim of this registration form is to be optimally inclusive (i.e., to be usable for registration of any systematic review, regardless of scientific discipline or review type). Because this aim precludes 1:1 correspondence with the existing reporting guidelines, this form is also intended as a basis to develop more specialized forms that do correspond closely to more specific reporting guidelines. Such specialized forms can include, for example, additional fields, added comments, and worked examples. Please contact the Center of Open Science at contact@cos.io if you would like to propose such a specialized version. Please do reach out if you want to be involved in any of these projects.
+
+
+## Citation
+Van den Akker, O. R., Peters, G. Y., Bakker, C., Carlsson, R., Coles, N. A., Corker, K. S., Feldman, G., , Moreau, D., Nordström, T., Pfeiffer, N., Pickering, J. S., Riegelman, A., Topor, M., Veggel, N., Yeung, S., Mellor, D., & Pfeiffer, N. Generalized Systematic Review Registration Form. MetaArXiv.. https://doi.org/g5fj. -->
+
+
+# Review Methods
+<!-- In this section, you register the general type, background, and goals of your review. -->
+
+
+## Type of review
+<!-- This can be, for example, a meta-analysis, evidence map, or a qualitative review.  Also indicate whether you used any guidelines, tools, or checklists to prepare your protocol and, if so, which ones. For more information, see: Tricco, A. C., Tetzlaff, J., Moher, D. (2011). The art and science of knowledge synthesis. https://doi.org/frdpd2. -->
+
+Enter your response here.
+
+
+## Review stages
+<!-- Indicate the stages in which you will conduct this review. Common stages are, in this order, the sections of this form: Search, Screening, Extraction, Synthesis. Sometimes other stages are distinguished, such as Preparation, Critical Appraisal, and Reporting. Additionally, it can be beneficial to include pilot stages for screening and extraction, while mentioning any updates to the preregistration. The stages could then look like: Preparation, Search, Pilot Screening (100 hits), Prereg Update, Screening, Pilot Extraction (10 sources), Prereg update, Extraction, Synthesis. -->
+
+Enter your response here.
+
+
+## Current review stage
+<!-- Indicate which stage from the “Review stages” item you are at this moment (i.e., when you freeze this registration). Note that in many contexts, only registrations in earlier stages are considered preregistrations. For example, you can indicate whether you started and/or finished with a certain stage as is customary for PROSPERO registrations. In addition, if this is not the first preregistration (but a second or third update, e.g., after pilot screening or pilot extraction), you can make that explicit here. -->
+
+Enter your response here.
+
+
+## Start date
+<!-- Indicate the planned start date, or if you already started, the actual start date. -->
+
+Enter your response here.
+
+
+## End date
+<!-- Indicate the planned end date, or if you already completed the review, the actual end date. You can use resources such as PredicTER to estimate how long a review will take to complete. -->
+
+Enter your response here.
+
+
+## Background
+<!-- Introduce the topic of your review, its aims, and/or provide a short summary of known literature and what your review adds to this literature. You can describe why the review is needed, as well as which reviews already exist on this or related topics. -->
+
+Enter your response here.
+
+
+## Primary research question(s)
+<!-- List the specific questions this review is meant to answer (i.e., the questions that ultimately informed the decisions made when designing the search strategy, and screening, extraction, and synthesis plans). You may find it helpful to refer to frameworks such as PICOS where appropriate to pinpoint your research questions. Note that all analyses pertaining to primary research questions should normally be reported in the final report. -->
+
+Enter your response here.
+
+
+## Secondary research question(s)
+<!-- List additional research questions that you will examine, but that took less central roles in informing the review’s design. Note that all analyses pertaining to secondary research questions should normally be reported in the final report. -->
+
+Enter your response here.
+
+
+## Expectations / hypotheses
+<!-- Describe any hypotheses (common for quantitative approaches) and/or expectations you have. These can pertain to your research questions, the types of sources you will find, social and political contexts, and contextual information that you know may color your interpretations and decisions (common for qualitative approaches).  -->
+
+Enter your response here.
+
+
+## Dependent variable(s) / outcome(s) / main variables
+<!-- List the dependent / outcome / main variables you are interested in. If this review concerns one or more associations, list the outcome variable(s) or dependent variables. If this review does not concern one or more associations (e.g., in reviews of single variables such as prevalences, or descriptive reviews), list the main variables of interest here. -->
+
+Enter your response here.
+
+
+## Independent variable(s) / intervention(s) / treatment(s)
+<!-- If this review’s research question(s) concerns one or more associations or effects, list the variable(s) that theoretically cause them or are assumed to otherwise explain the dependent variable(s) / outcome(s). If this is a manipulation, treatment, or intervention, make sure to describe it in full: that means also describing all groups, including any control group(s) or comparator(s). -->
+
+Enter your response here.
+
+
+## Additional variable(s) / covariate(s)
+<!-- Here, list any additional variables you are interested in that were not included in the two lists above, such as covariates, moderators, or mediators. -->
+
+Enter your response here.
+
+
+## Software
+<!-- List the software you will use for the review, for instance to store and screen search results, extract data, keep track of decisions, and to synthesize the results. Include version numbers and operating systems, if applicable. -->
+
+Enter your response here.
+
+
+## Funding
+<!-- List the funding sources for everybody that is involved in this review at this stage. If the work is unfunded, please state this as such. -->
+
+Enter your response here.
+
+
+## Conflicts of interest
+<!-- List any potential conflicts of interest (e.g., if there is a potential outcome of this review that can in any way have negative or positive effects for anybody involved in this review in terms of funding, prestige, or opportunities). If there are no conflicts of interest, please state this as such. -->
+
+Enter your response here.
+
+
+## Overlapping authorships
+<!-- Declare whether you expect that anyone involved in this review is a co-author of one of the studies that will likely be included in the review (based on your search strategy) and, if so, how you will address potential bias (i.e., that reviewer is not involved in screening, data extraction, quality assessment, or synthesis of that study). If you are confident that this does not represent a conflict of interest, explain why you think so. -->
+
+Enter your response here.
+
+
+# Search Strategy
+<!-- In this section, you register your search strategy: the procedures you designed to obtain all (potentially) relevant sources to review (e.g., articles, books, preprints, reports, case law, policy papers, archived documents). -->
+
+
+## Databases
+<!-- List the databases you will search (e.g., ArXiv, PubMed, Scopus, Web of Science, PsycINFO, AGRIS, BioOne, PubChem). Note that these are different from interfaces (see next question). -->
+
+Enter your response here.
+
+
+## Interfaces
+<!-- For each database, list the interface you used to search that database (e.g., Ovid or EBSCO). Some databases are provided by the same organisation, in which case the interface can have the same name (e.g., PubMed, ArXiv). For more information about the distinction. -->
+
+Enter your response here.
+
+
+## Grey literature
+<!-- List your strategies for locating grey literature (i.e., sources not indexed in the databases you search) such as pre-prints (e.g., disciplinary repositories such as ArXiv or PsyArXiv or university repositories using for example, DSpace), dissertations and theses, conference proceedings and abstracts, government/industry reports etc. -->
+
+Enter your response here.
+
+
+## Inclusion and exclusion criteria
+<!-- List the specific inclusion and exclusion criteria that you used to inform your search strategy. Also list the framework(s) you used to establish your exclusion and inclusion criteria and use them to develop your search query, if any. Examples of the latter are PICO (Population, Intervention, Comparison, Outcome) and SPIDER (Sample, Phenomenon of Interest, Design, Evaluation, Research type), but many more exist. -->
+
+Enter your response here.
+
+
+## Query strings
+<!-- For each database/interface combination, list the query you will input (note that the available fields and operators can differ by database and by interface). The query string can be based on, for example, your inclusion criteria, the entities you want to extract (see “extraction”) and design requirements (e.g., qualitative studies, RCTs, or prevalence studies).  -->
+
+Enter your response here.
+
+
+## Search validation procedure
+<!-- Explain whether you plan to employ a search validation procedure, and if so, describe the procedure. For example, you can use a number of sources that you know your search strategy will have to turn up to validate your strategy and make adjustments if needed. -->
+
+Enter your response here.
+
+
+## Other search strategies
+<!-- List any additional search strategies you aim to employ, such as using the ascendancy approach (look through other sources cited in your included sources), the descendancy approach (look through the sources that cite your included sources using systems such as Crossref), or using other systems such as CoCites. -->
+
+Enter your response here.
+
+
+## Procedures to contact authors
+<!-- Describe your procedures for contacting authors. Will you contact authors? When? How will you follow-up on your first contact? Do you plan to share meta-data about those communications, and if so, how do you ask authors’ permission for that? Note that templates are available at https://osf.io/q8stz/ -->
+
+Enter your response here.
+
+
+## Results of contacting authors
+<!-- Describe whether you plan to report the outcomes of contacting the authors (e.g., how many authors responded, how many authors sent data), and if so, how. -->
+
+Enter your response here.
+
+
+## Search expiration and repetition
+<!-- Depending on how quickly the literature in an area expands, searches can have limited expiration dates; and for living reviews, repetition is planned regardless of ideas about expiration. Will you repeat your search (for example, in the case of a living review), and if so, how many months or years after your first search? -->
+
+Enter your response here.
+
+
+## Search strategy justification
+<!-- Search strategies are often compromises, balancing pragmatic considerations with scientific rigour. Here, describe the justifications for your decisions about the databases, interfaces, grey literature strategies, query strings, author contact procedures, and search expiration date.  -->
+
+Enter your response here.
+
+
+## Miscellaneous search strategy details
+<!-- Here, you can describe any details that are not captured in the other fields in this section.  -->
+
+Enter your response here.
+
+
+# Screening
+<!-- In this section, you register your screening procedure: the procedure you designed to eliminate all irrelevant sources from the results of the search strategy (and retain the relevant sources). -->
+
+
+## Screening stages
+<!-- Describe the stages you will use for screening. For example, if you expect many hits, you may want to first screen based on titles only, in a second round also include abstracts and keywords, and in a third round screen based on full texts. Also indicate for each round whether the screening is done by a computer (e.g., AI), a human, or a computer supervised by a human. Don’t forget to describe the deduplication procedure, if you implement it. -->
+
+Enter your response here.
+
+
+## Screened fields / blinding
+<!-- Describe which bibliographic fields (e.g., title, abstract, authors) are visible during the screening, and which fields are blinded. For example, journal names, authors, and publication years can be hidden from screeners in an effort to minimize bias. -->
+
+Enter your response here.
+
+
+## Used exclusion criteria
+<!-- List the specific exclusion criteria that you apply in your screening to eliminate sources from the set of sources identified in your search. Note that inclusion criteria are typically used to inform the search strategy; during screening, as soon as an exclusion criterion is met, an entry is excluded, and so, inclusion criteria are reformulated into exclusion criteria where applicable. -->
+
+Enter your response here.
+
+
+## Screener instructions
+<!-- List the instructions provided to the screener(s). You can also specify which file in the associated OSF project contains these instructions. -->
+
+Enter your response here.
+
+
+## Screening reliability
+<!-- For each screening round, list the number of screeners and the procedure used to ensure independent screening.This can also mean that you declare that you only use one screener, use multiple screeners that work together, or that you will not implement procedures to ensure that the screening is conducted independently. Also explain the test you will use, if any, to assess screener agreement. -->
+
+Enter your response here.
+
+
+## Screening reconciliation procedure
+<!-- If you use more than one screener, describe the procedure to deal with divergent screener decisions for each screener round (e.g., through discussion or input from an additional screener). -->
+
+Enter your response here.
+
+
+## Sampling and sample size
+<!-- Describe whether you plan to use all sources included through the screening procedure, or whether you plan to sample from these sources (note that in most cases, all studies identified at this stage are kept). In case of the latter, describe the procedure you plan to use, the sample size analyses you conducted or will conduct, and the resulting required sample size if that is already available. If you plan to refrain from drawing conclusions, or draw more nuanced conclusions, describe that here as well. Finally, describe what you will do if a minimum required sample size or power is not reached (for your main analysis and any supplementary analyses).  -->
+
+Enter your response here.
+
+
+## Screening procedure justification
+<!-- Screening procedures are often compromises, balancing pragmatic considerations with scientific rigour. Here, describe the justifications for your decisions about the screening rounds, blinding, in/exclusion criteria, assurance, and reconciliation procedures. -->
+
+Enter your response here.
+
+
+## Data management and sharing
+<!-- Describe whether and how you plan to share the sources you obtained from the searches in the databases (see Search Strategy) and the decisions each screener made in each screening round. List both the file format (e.g., BibTeX, RIS, CSV, XLSX), the repository, and any potential embargos or conditions for access. -->
+
+Enter your response here.
+
+
+## Miscellaneous screening details
+<!-- Here, you can describe any details that are not captured in the other fields in this section. -->
+
+Enter your response here.
+
+
+# Extraction
+<!-- In this section, you register your plans for data extraction: the procedures you designed to extract the data you are interested in from the included sources. Examples of such data are text fragments, effect sizes, study design characteristics, year of publication, characteristics of measurement instruments, final verdicts and associated penalties in a legal system, company turnovers, sample sizes, or prevalences. -->
+
+
+## Entities to extract
+<!-- List all entities that will be extracted from each included source. Entities can be, for example, 1) variables such as values of independent and dependent variables, and potential moderators (e.g., means, standard deviations); 2) estimations of associations between variables or effect sizes (e.g., Pearson’s r or Cohen’s d); 3) qualitative data fragments (e.g., interview material or synthesized themes); 4) descriptions of the used methods such as the included studies’ designs, sample sizes, sample characteristics, time between data collection sessions, and blinding procedures; 5) metadata such as authors, institutions, and year of publication; 6) and (other) risk of bias indicators. -->
+
+Enter your response here.
+
+
+## Extraction stages
+<!-- Describe the stages you will use for extraction. Examples of stages are: a training stage, a reliability verification stage, and a final extraction stage; or first extracting primary data and in a second stage risk of bias information; or two extractors working sequentially or in parallel. Also indicate for each stage whether the extraction is done by a computer (e.g., AI), a human, or a computer supervised by a human. -->
+
+Enter your response here.
+
+
+## Extractor instructions
+<!-- List the instructions provided to the extractors (i.e., those performing the data extraction). You can also specify which file in the associated OSF project contains these instructions.
+You may attach up to 5 file(s) to this question. Files cannot total over 5GB in size. -->
+
+Enter your response here.
+
+
+## Extractor masking
+<!-- If masking is used, describe the procedure used to blind extractors from the research questions, hypotheses, and/or specific roles of each entity to extract in this review. For example, extractors can be research assistants who are not informed of the study’s background or research questions, but who are trained to extract entities using the coding instructions you developed for each entity; or entity extraction can be crowdsourced to citizen scientists. -->
+
+Enter your response here.
+
+
+## Extraction reliability
+<!-- For each extraction round, list the number of extractors and the procedure used to ensure independent extraction (this can also mean that you declare that you use one extractor, or will not implement procedures to ensure that the extractions are conducted independently). Also explain the test you will use, if any, to assess extractor agreement. -->
+
+Enter your response here.
+
+
+## Extraction reconciliation procedure
+<!-- For each extraction round, describe the procedure to deal with divergent extraction decisions (if applicable, i.e., if you use more than one extractor). -->
+
+Enter your response here.
+
+
+## Extraction procedure justification
+<!-- Extraction procedures are often compromises, balancing pragmatic considerations with scientific rigour. Here, describe the justifications for your decisions about the justification of each entity that will be extracted, the extraction rounds, reliability assurance, and reconciliation procedures. -->
+
+Enter your response here.
+
+
+## Data management and sharing
+<!-- Describe whether and how you will share the files with the extracted entities (as specified in the corresponding field above; i.e., everything extracted from every source, including metadata, method characteristics, variables, associations, etc). List both the file format (e.g., CSV, XLSX, RData), the repository, and any potential embargos or conditions for access. Describe efforts made to share FAIR, 5-star open data, if any such efforts will be made.  -->
+
+Enter your response here.
+
+
+## Miscellaneous extraction details
+<!-- Here, you can describe any details that are not captured in the other fields in this section.  -->
+
+Enter your response here.
+
+
+# Synthesis and Quality Assessment
+<!-- In this section, you register the procedure for the review’s synthesis: the procedure you designed to use the data that was extracted from each source to answer your research question(s). This often includes transforming the raw extracted data, verifying validity, applying predefined inference criteria, interpreting results, and presenting results. Additionally, you register procedures you designed to assess bias in individual sources and the synthesis itself. -->
+
+
+## Planned data transformations
+<!-- Describe your plans for transforming the raw extracted data. This may include converting effect sizes to other metrics (e.g., convert all metrics to Pearson correlation coefficients); recoding or (re)categorizing extracted qualitative data fragments (e.g., coding extracted music genres within an existing taxonomy); and aggregating extracted data prior to the main synthesis procedures (e.g., compute the mean of a variable over all samples in one source). Applying these transformations to the raw extracted entities from the Extraction section should yield data that corresponds to the variables of interest listed in the Review Methods section. -->
+
+Enter your response here.
+
+
+## Missing data
+<!-- Describe how you will deal with missing data (i.e., cases where it is not possible to extract one or more entities from the source material, and your efforts to obtain the missing information, for example by contacting the authors, are not fruitful). -->
+
+Enter your response here.
+
+
+## Data validation
+<!-- Describe your process of ensuring that the data are correct and useful (e.g., identifying outliers, identifying retractions, or triangulating with other sources). Also describe your criteria for assessing data validity and how you will deal with data violating those criteria. -->
+
+Enter your response here.
+
+
+## Quality assessment
+<!-- Describe the analyses you plan to do to assess and weigh the quality of the included sources with respect to your research question(s). Examples of tools to use for quality evaluation are Cochrane’s Risk of Bias tool, GRADE, and GRADE-CERQual. -->
+
+Enter your response here.
+
+
+## Synthesis plan
+<!-- Describe the specific procedure you will apply to arrive at an answer to the research question(s). For example, in meta-analyses this is the full analysis plan, including any planned subgroup analyses and moderator analyses, the (multilevel) model specification, and preferably the analysis code. For a qualitative review, it is the procedure you plan to use to collate your results into a coherent picture. If you distinguish synthesis tiers (e.g., primary and secondary analysis, or confirmatory and exploratory analyses), list them and indicate which procedures you plan to use for each. Also specify what you will do if parts of the plan can’t be properly executed. -->
+
+Enter your response here.
+
+
+## Criteria for conclusions / inference criteria
+<!-- If you plan to draw your conclusions based on pre-specified criteria (e.g., a minimal effect size of interest, a significance level, or a saturation point), list these here. -->
+
+Enter your response here.
+
+
+## Synthesist blinding
+<!-- Describe the procedure, if any, used to blind synthesists (i.e., the persons synthesizing the extracted data to arrive at answers to your research question(s)) from the research questions, hypotheses, and/or specific roles of each extracted entity/variable in this review. For example, for meta-analyses, an analyst external to the main research team can be engaged to perform the analyses without knowing the study’s hypotheses. For qualitative reviews, for the synthesis, other researchers can be involved who are unaware of and are not informed about the research process and expectations. -->
+
+Enter your response here.
+
+
+## Synthesis reliability
+<!-- List the number of synthesists and the procedure used to ensure independent synthesis (this can also mean that you declare that you use one synthesist, or will not implement procedures to ensure that the syntheses are conducted independently). -->
+
+Enter your response here.
+
+
+## Synthesis reconciliation procedure
+<!-- Describe the procedure to deal with divergent synthesis decisions (if applicable). -->
+
+Enter your response here.
+
+
+## Publication bias analyses
+<!-- Describe the analyses you plan to do to assess publication bias (if any). For an overview of commonly used publication bias correction methods, see Table 1 in https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0215052 -->
+
+Enter your response here.
+
+
+## Sensitivity analyses / robustness checks
+<!-- Describe the sensitivity analyses or robustness checks you plan to conduct (if any). -->
+
+Enter your response here.
+
+
+## Synthesis procedure justification
+<!-- Extraction procedures are sometimes compromises, balancing pragmatic considerations with scientific rigour. Here, describe the justifications for your decisions about your planned transformations (e.g., if based on assumptions, how do you know those are feasible), your data integrity and missing data checks and corrections, your synthesis plan, the criteria you chose to drive your conclusions/inferences (if any), and your procedures for blinding, and reliability assurance/reconciliation if you use multiple synthesists. -->
+
+Enter your response here.
+
+
+## Synthesis data management and sharing
+<!-- Describe whether and how you will share the files with the analysis scripts, notes, and outputs. List both the file format (e.g., R scripts, RMarkdown files, plain text files, Open Document files), the repository, and any potential embargos or conditions for access. See https://osf.io/5nk92 for a generic example of an analysis script. -->
+
+Enter your response here.
+
+
+## Miscellaneous synthesis details
+<!-- Here, you can describe any details that are not captured in the other fields in this section. -->
+
+Enter your response here.
+

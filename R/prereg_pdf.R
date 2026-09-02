@@ -20,6 +20,8 @@
 #' Spitzer, L. (ed.). (2022). Preregistration Template for Scoping Reviews (based on PRP-QUANT & PRISMA-ScR). ZPID (Leibniz Institute for Psychology). \doi{doi:10.23668/psycharchives.5631}
 #' 
 #' Van den Akker, O. R., Weston, S., Campbell, L., Chopik, B., Damian, R., Davis-Kean, P., … Bakker, M. (2021). Preregistration of secondary data analysis: A template and tutorial. Meta-Psychology, 5. \doi{doi:10.15626/mp.2020.2625}
+#' 
+#' Van den Akker, O. R., Peters, G. Y., Bakker, C., Carlsson, R., Coles, N. A., Corker, K. S., Feldman, G., , Moreau, D., Nordström, T., Pfeiffer, N., Pickering, J. S., Riegelman, A., Topor, M., Veggel, N., Yeung, S., Mellor, D., & Pfeiffer, N. (2023) Generalized Systematic Review Registration Form.\doi{doi:10.1186/s13643-023-02281-7}
 #'
 #' van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi: \doi{doi:10.1016/j.jesp.2016.03.004}
 #'
