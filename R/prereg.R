@@ -38,7 +38,8 @@
 #' Van den Akker, O. R., Weston, S., Campbell, L., Chopik, B., Damian, R., Davis-Kean, P., … Bakker, M. (2021). Preregistration of secondary data analysis: A template and tutorial. Meta-Psychology, 5. \doi{doi:10.15626/mp.2020.2625}
 #'
 #' van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi: \doi{doi:10.1016/j.jesp.2016.03.004}
-#' @docType package
+#' 
+#' Zörgő, S. (2021). Preregistration Template for Qualitative and Unified Studies \doi{doi:10.17605/osf.io/TGK49}
 #' @name prereg
 
 "_PACKAGE"
