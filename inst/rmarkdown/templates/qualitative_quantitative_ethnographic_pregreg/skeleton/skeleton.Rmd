@@ -1,0 +1,360 @@
+---
+title           : "Preregistration Template for Qualitative and Unified Studies (Zörgő, S., 2023)"
+shorttitle      : "Preregistration Template"
+date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+
+author:
+  - name        : First Author
+    affiliation : 1
+  - name        : Ernst-August Doelle
+    affiliation : "1,2"
+
+affiliation:
+  - id          : 1
+    institution : Wilhelm-Wundt-University
+  - id          : 2
+    institution : Konstanz Business School
+
+output: prereg::prereg_pdf
+---
+
+# Citation
+<!-- Zörgő, S. (2023). Preregistration Template for Qualitative and Unified Studies, doi: 10.17605/OSF.IO/TGK49
+The compilation of this template relied heavily on the following: 
+DeHaven, A. C., Mellor, D. T., Haven, T. L., & van Grootel, L. (2020, March 4). Preregistration for Qualitative Research Template (Haven & Van Grootel). Retrieved from osf.io/dv8km 
+Mellor, D. T., & DeHaven, A. C. (2021, February 23). Templates of OSF Registration Forms. Retrieved from osf.io/zab38
+Tong, A., Sainsbury, P., Craig, J. (2007, December) Consolidated criteria for reporting qualitative research (COREQ): a 32-item checklist for interviews and focus groups, International Journal for Quality in Health Care, Volume 19, Issue 6, Pages 349–357, doi:10.1093/intqhc/mzm042
+Zörgő, S., Porter, C., Peters, G.-J. Y., Moraes, M., & Eagan, B. (2021, March 12). A Systematic Review of Works in Quantitative Ethnography. Retrieved from osf.io/pa9jv -->
+
+
+# Preparation
+## Contributors
+<!-- Please list the contributors and their roles. For the latter, you can use CRediT (Contributor Roles Taxonomy), for example. -->
+
+Enter your response here.
+
+
+## Research aims
+<!-- Please state the aims of your research. Your aim may be different across different domains (e.g.: knowledge generation, policy development, community resourcing). If so, specify your aim for each domain that is relevant for your study. -->
+
+Enter your response here.
+
+
+## Aim type
+<!-- What type of study are you conducting? Exploratory projects, for example, may not have any hypotheses or even specific research questions, their aim is to explore a general topic, community, or practice. Confirmatory studies have specific hypotheses that are either proven or disproven. -->
+
+Enter your response here.
+
+
+## Research question
+<!-- Please state your research question(s). Research questions are subject to change and/or elaboration. Some beneficial times to review these questions may be at, e.g.:
+1. Preregistration
+2. After the first instances of data collection
+3. When discussing the first results
+4. When starting write-up of findings -->
+
+Enter your response here.
+
+
+## Theoretical framework / Use of theory
+<!-- Please specify the role of theory in your study. You may be using theory to design your methods (including the sampling strategy and coding instructions) or aim to explore the constructs defined in the theory more in-depth. You may aim to closely follow or test a certain theory. Or you may not be basing your design, coding, and other decisions on theory (e.g.: in applied research or in a new area of research with no applicable existing theory). 
+
+Note that this is a good moment to reflect upon your existing expectations and personal preconceptions, and think about whether these derive from theory. If so, indicate that here or in the "Positionality" item (in the Positionality and Credibility section).-->
+
+Enter your response here.
+
+
+## Paradigm
+<!-- Please elaborate if your research is conducted from a certain theoretical paradigm (for example, social constructionism, positivism, post-positivism, critical theory, etc.). How will this paradigm influence your research? -->
+
+Enter your response here.
+
+
+## Basic data
+<!-- Please select whether you are working with original or pre-existing data. Select the appropriate category: -->
+
+- Existing (secondary) data
+- Original data
+
+
+## Anticipated duration
+<!-- How long do you imagine the study taking, from its preregistration to the final write-up of results? -->
+
+Enter your response here.
+
+
+# Sampling
+## Sampling strategy
+<!-- Please describe your sampling strategy. Please provide a short rationale for why you selected this type of strategy. Describe inclusion and exclusion criteria. (e.g.: convenience, purposive, snowball, theoretical, maximum variation, proportional quota, non-proportional quota, random, mixed) -->
+
+Enter your response here.
+
+
+## Recruitment
+<!-- Please describe from where you are recruiting the participants for your study and how you will be getting in touch with them. -->
+
+Enter your response here.
+
+
+## Sample size
+<!-- Planned number of participants (or providers of data or “cases”) and your justification or rationale for this number or range. -->
+
+Enter your response here.
+
+
+## Transferability of results
+<!-- Given your sampling plans, to what or whom do you expect your findings to be transferable? In other words, to what group of cases or circumstances will your findings be applicable or feasibly true? -->
+
+Enter your response here.
+
+
+# Data collection
+## Data collection method
+<!-- Please indicate the data collection procedure(s) you will use. (e.g.: semi-structured interview, structured interview, focus group, enabling technique, self-report, field notes, diary, participant observation, observation, archival research, log file, survey) -->
+
+Enter your response here.
+
+
+## Type of raw data
+<!-- In what form will you be collecting data for your study? (e.g.: audio, video, audio-video, text, numerical) -->
+
+Enter your response here.
+
+
+## Data providers
+<!-- Your study may be conducted with individuals but data is recorded from a dyad or a group; individuals may not be considered separately. Thus, please indicate who/what you consider data providers in your study. (e.g.: individual, dyad, group (≥3), individual and group, other) -->
+
+Enter your response here.
+
+
+## Data collection tools
+<!-- Please describe or upload the tools, instruments, or plans you will use in collecting or generating your data. (e.g.: topic guide, interview structure, questionnaire, focus group guide, observation scheme, standardized prompts, protocol, archival search interfaces and queries) -->
+
+Enter your response here.
+
+
+## Stopping criteria
+<!-- Please describe the criteria or rationale for stopping data generation or collection. These can differ for various aspects of the project. (e.g.: data saturation (please elaborate), when inclusion criteria are satisfied, resource constraints (e.g. time/funding), when the analysis has produced an enriching answer to the research question(s)) -->
+
+Enter your response here.
+
+
+## Metadata or attributes
+<!-- Please specify what constitutes metadata or attributes in your study (data about data providers, data collection, or data itself). Examples include: participant age, sex, education; interviewer, date of interview, timestamp. -->
+
+Enter your response here.
+
+
+# Coding
+## Type of coding
+<!-- Please indicate whether you will be developing your own codes (inductively) or adopting codes from a previous study or theoretical framework (deductively). You may be using a combination of these, e.g., inductively developing codes through test coding and then deductively applying the final code structure. -->
+
+Enter your response here.
+
+
+## Process of coding
+<!-- If there is more than one coder, are they coding with the same or a different set of codes? Select the appropriate category:  -->
+
+- All coders employing different codes
+- All coders employing same codes
+- Mixed
+- Other
+
+
+## Code application
+<!-- Are you using manual coding (each instance of a code is applied intentionally by the researcher with or without the help of a machine/software) or automated coding (machine performs coding based on an algorithm with or without parameterization by the researcher) a combination of both? -->
+
+Enter your response here.
+
+
+## Code development
+<!-- Please describe in detail the stages of code development. If applicable, you may upload different code structures developed before triangulation, as well as anything in the process of creating the final version. -->
+
+Enter your response here.
+
+
+## Code structure
+<!-- Describe the final code structure, if you have it at the time of preregistration: If you are applying your codes deductively, how many levels of abstraction do you have? How many codes are at each level? (If possible, please upload your final codebook with your preregistration or to your repository) -->
+
+Enter your response here.
+
+
+## Classifiers
+<!-- Are you using classifiers (e.g., regular expressions) for automated coding? If so, please elaborate your considerations in developing your classifiers. Provided you have them at the time of preregistration, please list your classifiers, upload them, or indicate that you will have them in your repository. -->
+
+Enter your response here.
+
+
+## Types of coders
+<!-- Who or what is performing the coding? Select the appropriate category:  -->
+
+- Human only
+- Computer only
+- Human and computer
+- Other
+
+
+## Number of coders
+<!-- How many coders are performing coding? If automated coding is (also) being used, please include the computer as a “coder”. -->
+
+Enter your response here.
+
+
+## Coding tools
+<!-- Are you planning on using any specific tools for performing coding? (e.g.: interface for the Reproducible Open Coding Kit (iROCK), nCoder, NVivo, Atlas.ti) -->
+
+Enter your response here.
+
+
+## Inter-coder agreement
+<!-- Are you planning to examine agreement between coders in any way? If so, how? If you are not planning to do this, you can explain your rationale here.  -->
+
+Enter your response here.
+
+
+## Intra-coder agreement
+<!-- Are you planning to examine the degree to which the application of codes changes over time within the work of the same coder? If so, how? If you are not planning to do this, you can explain your rationale here. -->
+
+Enter your response here.
+
+
+## Coder training
+<!-- Will you be providing any training for coders? If so, please describe this process below. If coders received any previous relevant training, you may indicate that here as well. If you are not planning to provide training, you can explain your rationale here. -->
+
+Enter your response here.
+
+
+# Segmentation
+## Smallest unit of segmentation
+<!-- Define the smallest meaningful unit of segmentation (one sentence, one log entry, one second, etc.) -->
+
+Enter your response here.
+
+
+## Other levels of segmentation
+<!-- Define any other level(s) of segmentation (intermediate, highest), for example: a topic, psychological proximity, recent temporal context, utterances from one participant during one session, an interview transcript, a focus group session transcript, log entries within the duration of 24 hours, observations from one group performing one task, etc. -->
+
+Enter your response here.
+
+
+## Type of segmentation
+<!-- Please indicate whether you will be performing segmentation manually or automating it or a combination of both. This answer may differ depending on level of segmentation; please indicate separately for each level of segmentation you plan to perform. Answers may include: automated, manual, automated and manual, not applicable. -->
+
+Enter your response here.
+
+
+## Coding and segmentation level
+<!-- Please indicate on which level(s) of segmentation you will be performing coding. You may want to distinguish between coding a narrative and designating attributes or metadata. -->
+
+Enter your response here.
+
+
+## Operationalization of source (codable or coded file)
+<!-- What data will your files contain? (e.g.: one interview, a series of interviews, all think-aloud entries from a participant) -->
+
+Enter your response here.
+
+
+# Threading
+## Indication of threading
+<!-- How are you planning to indicate the depth of threading (nesting) in your data? -->
+
+Enter your response here.
+
+
+## Levels of threading
+<!-- If you are using threaded data, are you planning to limit the number of levels you are working with? If so, what is the depth you are planning to work with? What is your rationale for this decision? -->
+
+Enter your response here.
+
+
+# Analysis
+## Approach
+<!-- Please specify what type of analysis you are planning on conducting. (e.g.: Narrative analysis, Interpretative phenomenological analysis, Grounded theory, Thematic analysis, Content analysis, Process tracing, Comparative analysis, Discourse analysis) -->
+
+Enter your response here.
+
+
+## Process
+<!-- Please describe the process that your analysis approach requires and how you see this process manifesting in your study. -->
+
+Enter your response here.
+
+
+## Data transformation
+<!-- If you intend to do so, describe how you will change the grouping or representation of your data in order to perform analysis (e.g.: a higher order grouping of sources, cases, or attributes). -->
+
+Enter your response here.
+
+
+## Analytical tools
+<!-- Are you planning on using any tools to perform analysis? If so, please specify them here.(e.g.: the Reproducible Open Coding Kit (ROCK), Epistemic Network Analysis (ENA), nCoder, Rho, Topic modelling) -->
+
+Enter your response here.
+
+
+# Epistemic network analysis (ENA)-specific
+## ENA unit
+<!-- What will constitute “units”, i.e., for what will you be generating networks? If you know this ahead of time, please indicate it here. -->
+
+Enter your response here.
+
+
+## ENA conversation
+<!-- What will constitute “conversation”, i.e., how do you plan to aggregate (bounded sets of) utterances? If you know this ahead of time, please indicate it here. -->
+
+Enter your response here.
+
+
+## ENA stanza window
+<!-- How will code co-occurrences be accumulated? If you know this ahead of time, please indicate it here. Select the appropriate category:  -->
+
+- Moving window
+- Whole conversation
+- Infinite stanza
+- Other
+
+
+## ENA moving stanza window
+<!-- If you will be using a moving stanza window, what will be its length? If you know this ahead of time, please indicate it here along with a justification or rationale. If you don’t know, how do you plan on deciding its size? -->
+
+Enter your response here.
+
+
+## Edge weights
+<!-- What will the edge weight threshold be set to? Will there be any changes in the analytical process or among various networks? If you know this ahead of time, please indicate it here. -->
+
+Enter your response here.
+
+
+## Means rotation
+<!-- Will means rotation be performed? If you know this ahead of time, please indicate it here. -->
+
+Enter your response here.
+
+
+## Assessing connections
+<!-- What constitutes a strong or weak connection? How will this be determined? If you know this ahead of time, please indicate it here. -->
+
+Enter your response here.
+
+
+# Positionality and credibility
+## Positionality
+<!-- Feel free to reflect on your relation to or association with the studied phenomenon and your position in the research setting/field, including your academic/personal standpoints, assumptions and values. In addition, if there is a potential conflict of interest that can arise, you may want to report that here. -->
+
+Enter your response here.
+
+
+## Credibility strategies
+<!-- Please indicate any strategies you will be employing to ensure better credibility of analyses and conclusions. (e.g.: member checking / respondent validation, triangulation with other data sources, asking different researchers to analyze the data, inter-coder agreement, negative case analysis, peer debriefing, cross-checks for rivalling explanations, bringing in an ‘auditor’, reflexivity) -->
+
+Enter your response here.
+
+
+# Open science
+## Repository
+<!-- Do you currently have or are you planning to create a repository for making any aspects of your research process open (preregistration, data, code development, codebook, analysis, etc.)? If so, please indicate it here. -->
+
+Enter your response here.
+
