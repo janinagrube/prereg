@@ -1,5 +1,5 @@
 ---
-title           : "Preregistration Template for Qualitative and Unified Studies (Zörgő, S., 2021)"
+title           : "Preregistration Template for Qualitative and Unified Studies (Zörgő, S., 2023)"
 shorttitle      : "Preregistration Template"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
@@ -19,7 +19,7 @@ output: prereg::prereg_pdf
 ---
 
 # Citation
-<!-- Zörgő, S. (2021). Preregistration Template for Qualitative and Unified Studies. https://doi.org/10.17605/OSF.IO/TGK49
+<!-- Zörgő, S. (2023). Preregistration Template for Qualitative and Unified Studies, doi: 10.17605/OSF.IO/TGK49
 The compilation of this template relied heavily on the following: 
 DeHaven, A. C., Mellor, D. T., Haven, T. L., & van Grootel, L. (2020, March 4). Preregistration for Qualitative Research Template (Haven & Van Grootel). Retrieved from osf.io/dv8km 
 Mellor, D. T., & DeHaven, A. C. (2021, February 23). Templates of OSF Registration Forms. Retrieved from osf.io/zab38
@@ -28,11 +28,6 @@ Zörgő, S., Porter, C., Peters, G.-J. Y., Moraes, M., & Eagan, B. (2021, March 
 
 
 # Preparation
-## Tentative title of project
-
-Enter your response here.
-
-
 ## Contributors
 <!-- Please list the contributors and their roles. For the latter, you can use CRediT (Contributor Roles Taxonomy), for example. -->
 
@@ -52,13 +47,18 @@ Enter your response here.
 
 
 ## Research question
-<!-- Please state your research question(s). Research questions are subject to change and/or elaboration. Some beneficial times to review these questions may be at, e.g.: 1) preregistration, 2) after the first instances of data collection, 3) when discussing the first results, 4) when starting write-up of findings -->
+<!-- Please state your research question(s). Research questions are subject to change and/or elaboration. Some beneficial times to review these questions may be at, e.g.:
+1. Preregistration
+2. After the first instances of data collection
+3. When discussing the first results
+4. When starting write-up of findings -->
 
 Enter your response here.
 
 
 ## Theoretical framework / Use of theory
 <!-- Please specify the role of theory in your study. You may be using theory to design your methods (including the sampling strategy and coding instructions) or aim to explore the constructs defined in the theory more in-depth. You may aim to closely follow or test a certain theory. Or you may not be basing your design, coding, and other decisions on theory (e.g.: in applied research or in a new area of research with no applicable existing theory). 
+
 Note that this is a good moment to reflect upon your existing expectations and personal preconceptions, and think about whether these derive from theory. If so, indicate that here or in the "Positionality" item (in the Positionality and Credibility section).-->
 
 Enter your response here.
