@@ -43,6 +43,8 @@
 #'
 #' van 't Veer, A. E., & Giner-Sorolla, R. (2016). Pre-registration in social psychology---A discussion and suggested template. Journal of Experimental Social Psychology, 67, 2--12. doi: \doi{doi:10.1016/j.jesp.2016.03.004}
 #' 
+#' Willroth, E.C. & Atherton, O. E. (2024) Best Laid Plans: A Guide to Reporting Preregistration Deviations. \doi {doi: 10.1177/25152459231213802}
+#' 
 #' Zörgő, S. (2021). Preregistration Template for Qualitative and Unified Studies \doi{doi:10.17605/osf.io/TGK49}
 #' @name prereg
 
