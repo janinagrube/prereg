@@ -285,3 +285,12 @@ Enter your response here.
 <!-- For the analyses listed above, will you include any covariates or control variables? If so, describe them below and provide a justification. -->
 
 Enter your response here.
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent
