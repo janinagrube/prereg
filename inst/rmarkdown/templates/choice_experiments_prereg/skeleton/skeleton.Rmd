@@ -1,6 +1,6 @@
 ---
-title           : "A pre-registration template for transparent choice experiment research (sagebiel et al., 2026)"
-shorttitle      : "Preregistration Choice experiments"
+title           : "A pre-registration template for transparent choice experiment research (Sagebiel et al., 2026)"
+shorttitle      : "Preregistration choice experiments"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
 author: 
@@ -14,6 +14,8 @@ affiliation:
     institution : Wilhelm-Wundt-University
   - id          : 2
     institution : Konstanz Business School
+    
+references: template-references.bib
 
 output: prereg::prereg_pdf
 ---
@@ -56,9 +58,9 @@ Enter your response here.
 <!-- State your target sample size and explain how you arrived at it. Four approaches are listed here from simple to more rigorous. State whether between-subject effects are included in the sample size calculation and whether power calculations used the same priors as the experimental design.Also state whether subgroup analyses require a larger N, and whether power calculations used the same priors as the experimental design. -->
 
 - Budget or practical constraint: If your sample size is restricted by budget or other constraints, state that here. It is still worth doing a brief plausibility check using one of the methods below, e.g. to determine power for different effect sizes.
-- Rule of thumb: A common minimum is $N \ge 500 L_{max} / (JS)$, where $L_{max}$ is the largest number of levels for any attribute, J is the number of alternatives (excluding none), and S is the number of choice tasks per respondent (Orme 2010, 64). Assele et al. (2023) propose an improved rule of $N \ge 150 K / S$, where K is the total number of parameters, which better accounts for model complexity and reduces underestimation compared to Orme's rule, particularly for larger designs. Note that both rules do not account for the desired power or significance level, and tend to underestimate N for mixed logit and latent class models (Assele et al. 2023).
-- AVC-based power calculation: The S-efficiency approach of Rose and Bliemer (2013) derives the minimum N for which all parameters achieve statistical significance from the asymptotic variance-covariance matrix of the target model, and is implemented as a design criterion in software such as NGENE or spdesign in R (Sandorf and Campbell 2023). Bekker-Grob et al. (2015) extend this to a full power calculation by additionally specifying a desired power level $1 - \beta$, and provide a step-by-step guide with R code. These approaches only work if the design is known and rely on prior assumptions.
-- Simulation-based: The most flexible approach. Simulate datasets under your assumed data-generating process (utility specification, error variance, parameter priors), estimate the target model, and iterate over values of N until the desired recovery rate or statistical power is achieved. This approach is particularly well-suited for complex models as it allows testing of any model including models with interaction terms, latent variables etc. In R, the simulateDCE package (Sagebiel 2025) supports this workflow.
+- Rule of thumb: A common minimum is $N \ge 500 L_{max} / (JS)$, where $L_{max}$ is the largest number of levels for any attribute, J is the number of alternatives (excluding none), and S is the number of choice tasks per respondent (Orme 2010, 64). Assele et al. (2023) propose an improved rule of $N \ge 150 K / S$, where K is the total number of parameters, which better accounts for model complexity and reduces underestimation compared to Orme's rule, particularly for larger designs. Note that both rules do not account for the desired power or significance level, and tend to underestimate N for mixed logit and latent class models (Assele et al., 2023).
+- AVC-based power calculation: The S-efficiency approach of Rose and Bliemer (2013) derives the minimum N for which all parameters achieve statistical significance from the asymptotic variance-covariance matrix of the target model, and is implemented as a design criterion in software such as NGENE or spdesign in R (Sandorf and Campbell, 2023). Bekker-Grob et al. (2015) extend this to a full power calculation by additionally specifying a desired power level $1 - \beta$, and provide a step-by-step guide with R code. These approaches only work if the design is known and rely on prior assumptions.
+- Simulation-based: The most flexible approach. Simulate datasets under your assumed data-generating process (utility specification, error variance, parameter priors), estimate the target model, and iterate over values of N until the desired recovery rate or statistical power is achieved. This approach is particularly well-suited for complex models as it allows testing of any model including models with interaction terms, latent variables etc. In R, the simulateDCE package (Sagebiel, 2025) supports this workflow.
 
 Enter your response here.
 

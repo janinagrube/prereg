@@ -37,7 +37,7 @@
 #' 
 #' Mertens, G., Krypotos, A. (2019). Preregistration of analyses of preexisting data \doi{doi:10.31234/osf.io/ph4q7}
 #' 
-#' Sagebiel, J., Schulze, C., Rommel, J. (2026). A pre-registration template for transparent choice experiment research \doi {doi:10.5281/zenodo.21443760}
+#' Sagebiel, J., Schulze, C., Rommel, J. (2026). A pre-registration template for transparent choice experiment research \doi {doi: 10.1093/qopen/qoag026}
 #' 
 #' Spitzer, L. (ed.). (2022). Preregistration Template for Scoping Reviews (based on PRP-QUANT & PRISMA-ScR). ZPID (Leibniz Institute for Psychology). \doi{doi:10.23668/psycharchives.5631}
 #' 
