@@ -15,7 +15,7 @@ affiliation:
   - id          : 2
     institution : Konstanz Business School
     
-references: template-references.bib
+bibliography: template-references.bib
 
 output: prereg::prereg_pdf
 ---
@@ -58,9 +58,9 @@ Enter your response here.
 <!-- State your target sample size and explain how you arrived at it. Four approaches are listed here from simple to more rigorous. State whether between-subject effects are included in the sample size calculation and whether power calculations used the same priors as the experimental design.Also state whether subgroup analyses require a larger N, and whether power calculations used the same priors as the experimental design. -->
 
 - Budget or practical constraint: If your sample size is restricted by budget or other constraints, state that here. It is still worth doing a brief plausibility check using one of the methods below, e.g. to determine power for different effect sizes.
-- Rule of thumb: A common minimum is $N \ge 500 L_{max} / (JS)$, where $L_{max}$ is the largest number of levels for any attribute, J is the number of alternatives (excluding none), and S is the number of choice tasks per respondent (Orme 2010, 64). Assele et al. (2023) propose an improved rule of $N \ge 150 K / S$, where K is the total number of parameters, which better accounts for model complexity and reduces underestimation compared to Orme's rule, particularly for larger designs. Note that both rules do not account for the desired power or significance level, and tend to underestimate N for mixed logit and latent class models (Assele et al., 2023).
-- AVC-based power calculation: The S-efficiency approach of Rose and Bliemer (2013) derives the minimum N for which all parameters achieve statistical significance from the asymptotic variance-covariance matrix of the target model, and is implemented as a design criterion in software such as NGENE or spdesign in R (Sandorf and Campbell, 2023). Bekker-Grob et al. (2015) extend this to a full power calculation by additionally specifying a desired power level $1 - \beta$, and provide a step-by-step guide with R code. These approaches only work if the design is known and rely on prior assumptions.
-- Simulation-based: The most flexible approach. Simulate datasets under your assumed data-generating process (utility specification, error variance, parameter priors), estimate the target model, and iterate over values of N until the desired recovery rate or statistical power is achieved. This approach is particularly well-suited for complex models as it allows testing of any model including models with interaction terms, latent variables etc. In R, the simulateDCE package (Sagebiel, 2025) supports this workflow.
+- Rule of thumb: A common minimum is $N \ge 500 L_{max} / (JS)$, where $L_{max}$ is the largest number of levels for any attribute, J is the number of alternatives (excluding none), and S is the number of choice tasks per respondent [@orme2010getting, S.64]. @assele2023sample propose an improved rule of $N \ge 150 K / S$, where K is the total number of parameters, which better accounts for model complexity and reduces underestimation compared to Orme's rule, particularly for larger designs. Note that both rules do not account for the desired power or significance level, and tend to underestimate N for mixed logit and latent class models [@assele2023sample].
+- AVC-based power calculation: The S-efficiency approach of @rose2013sample derives the minimum N for which all parameters achieve statistical significance from the asymptotic variance-covariance matrix of the target model, and is implemented as a design criterion in software such as NGENE or spdesign in R [@sandorf2023spdesign]. @bekkergrob2015sample extend this to a full power calculation by additionally specifying a desired power level $1 - \beta$, and provide a step-by-step guide with R code. These approaches only work if the design is known and rely on prior assumptions.
+- Simulation-based: The most flexible approach. Simulate datasets under your assumed data-generating process (utility specification, error variance, parameter priors), estimate the target model, and iterate over values of N until the desired recovery rate or statistical power is achieved. This approach is particularly well-suited for complex models as it allows testing of any model including models with interaction terms, latent variables etc. In R, the simulateDCE package [@sagebiel2025simulatedce] supports this workflow.
 
 Enter your response here.
 
@@ -96,7 +96,7 @@ Enter your response here.
 
 
 ## How do you plan to handle deviations from this pre-registration?
-<!-- A pre-registration records your intended design and analysis before the data are collected. Because some things cannot be foreseen at this stage, you may later find that a deviation is warranted. For example an unforeseen event during data collection, an error or gap discovered in the plan, or an assumption (about respondent behaviour, a distribution, or model convergence) that does not hold once the data are in (Lakens 2024). Deviations are not in themselves a problem; what matters is that any deviation is reported transparently and kept distinct from the analyses you planned in advance. You are not asked to predict specific deviations. Instead, please state where and how you would document any deviation should one arise (e.g., an amendment to the registration, a supplementary file, or the paper itself), noting briefly what was planned, what was done instead and why, and whether the change weakens or strengthens the resulting conclusions. -->
+<!-- A pre-registration records your intended design and analysis before the data are collected. Because some things cannot be foreseen at this stage, you may later find that a deviation is warranted. For example an unforeseen event during data collection, an error or gap discovered in the plan, or an assumption (about respondent behaviour, a distribution, or model convergence) that does not hold once the data are in [@lakens2024when]. Deviations are not in themselves a problem; what matters is that any deviation is reported transparently and kept distinct from the analyses you planned in advance. You are not asked to predict specific deviations. Instead, please state where and how you would document any deviation should one arise (e.g., an amendment to the registration, a supplementary file, or the paper itself), noting briefly what was planned, what was done instead and why, and whether the change weakens or strengthens the resulting conclusions. -->
 
 Enter your response here.
 
@@ -108,7 +108,7 @@ Enter your response here.
 
 
 # Part B: Experimental design
-<!-- The design stage includes selection of attributes, a clear definition of the choice situation and a statistical design. The design stage is critical to the choice experiment's validity and should be tested extensively. This template does not include best practices, it only serves as a reminder of the design stages. We highly recommend to align the research on Johnston et al. (2017) and Mariel et al. (2021). Johnston et al. (2017) focuses on best practices for stated preference studies broadly, while Mariel et al. (2021) provides more hands-on guidance specific to discrete choice experiment design and implementation. -->
+<!-- The design stage includes selection of attributes, a clear definition of the choice situation and a statistical design. The design stage is critical to the choice experiment's validity and should be tested extensively. This template does not include best practices, it only serves as a reminder of the design stages. We highly recommend to align the research on @johnston2017contemporary and @mariel2021environmental. @johnston2017contemporary focuses on best practices for stated preference studies broadly, while @mariel2021environmental provides more hands-on guidance specific to discrete choice experiment design and implementation. -->
 
 
 ## Describe the choice situation or good to be valued
@@ -118,7 +118,7 @@ Enter your response here.
 
 
 ## Which attributes (and respective levels) are you using?
-<!-- For each attribute in your survey, provide a clear and concise description, and explain each level if needed. Attributes and levels should reflect the information needs of decision-makers, importance to respondents, feasibility/credibility of implementation, and statistical efficiency. Attributes should be clearly defined and, where possible, vary independently of each other (Johnston et al. 2017). Common approaches to identify and refine attributes include literature review, expert consultation, and focus groups or pre-testing (Mariel et al. 2021). A justification for the choices can also be provided here. -->
+<!-- For each attribute in your survey, provide a clear and concise description, and explain each level if needed. Attributes and levels should reflect the information needs of decision-makers, importance to respondents, feasibility/credibility of implementation, and statistical efficiency. Attributes should be clearly defined and, where possible, vary independently of each other [@johnston2017contemporary]. Common approaches to identify and refine attributes include literature review, expert consultation, and focus groups or pre-testing [@mariel2021environmental]. A justification for the choices can also be provided here. -->
 
 Enter your response here.
 
@@ -148,19 +148,19 @@ Enter your response here.
 
 
 ## How did you create your experimental design?
-<!-- When you do your design with a specific software (NGENE, spdesign in R (Sandorf and Campbell 2023) etc.), describe all assumptions (utility specification, optimization routine etc.). See for example Scarpa and Rose (2008) for reporting guidelines of efficient designs. -->
+<!-- When you do your design with a specific software (NGENE, spdesign in R [@sandorf2023spdesign] etc.), describe all assumptions (utility specification, optimization routine etc.). See for example @scarpa2008design for reporting guidelines of efficient designs. -->
 
 Enter your response here.
 
 
 ## If an efficient design, which priors did you use, and how did you obtain them?
-<!-- State where the priors came from. For example, an assumption about the sign of the parameters, a pilot, focus groups or expert interviews, or a previous study. If from a pilot, say how many respondents it had and whether the design was updated afterwards. An efficient design is only adequate if the priors are approximately right; a design optimised for the wrong priors can perform worse than an orthogonal one (Walker et al. 2018). If you are uncertain, consider a Bayesian efficient design, which integrates over a distribution of likely parameter values rather than fixed ones (Kessels et al. 2006). See also Bliemer and Collins (2016). Consider simulations (see next question) to test the designs against different true data generating processes. -->
+<!-- State where the priors came from. For example, an assumption about the sign of the parameters, a pilot, focus groups or expert interviews, or a previous study. If from a pilot, say how many respondents it had and whether the design was updated afterwards. An efficient design is only adequate if the priors are approximately right; a design optimised for the wrong priors can perform worse than an orthogonal one [@walker2018defficient]. If you are uncertain, consider a Bayesian efficient design, which integrates over a distribution of likely parameter values rather than fixed ones [@kessels2006comparison]. See also @bliemer2016determining. Consider simulations (see next question) to test the designs against different true data generating processes. -->
 
 Enter your response here.
 
 
 ## Did you test the design, e.g., with simulation?
-<!-- Monte-Carlo simulations are a good way to test the design for unbiasedness, power and efficiency, and can help you to justify your design choice. In R you can use simulateDCE (Sagebiel 2025). If you did not use simulation, describe how you decided for the design you choose and what other designs you have compared it to. -->
+<!-- Monte-Carlo simulations are a good way to test the design for unbiasedness, power and efficiency, and can help you to justify your design choice. In R you can use simulateDCE [@sagebiel2025simulatedce]. If you did not use simulation, describe how you decided for the design you choose and what other designs you have compared it to. -->
 
 Enter your response here.
 
@@ -172,7 +172,7 @@ Enter your response here.
 
 
 ## Do you randomize the order of choice sets, alternatives and attributes?
-<!-- In most cases, it is recommended to randomize the order of choice sets, alternatives and attributes (Mariel et al. 2021, 40 and 94) to avoid undesired effects (e.g., left right bias). Note down if you do this, or if you do not do this, explain why not. -->
+<!-- In most cases, it is recommended to randomize the order of choice sets, alternatives and attributes [@mariel2021environmental, S. 40 and 94] to avoid undesired effects (e.g., left right bias). Note down if you do this, or if you do not do this, explain why not. -->
 
 Enter your response here.
 
@@ -224,13 +224,13 @@ Enter your response here.
 
 
 ## Do you estimate in preference space or in willingness to pay space?
-<!-- If you derive willingness to pay values, state whether you estimate in preference space or directly in willingness to pay space. The two parameterisations are theoretically equivalent but behave differently in practice: models in preference space can produce poorly behaved, sometimes extreme willingness to pay distributions when the cost coefficient is random, whereas models in willingness to pay space give better behaved welfare estimates but can be harder to converge (Train and Weeks 2005). If the choice depends on the data, state the criterion you will use to decide. -->
+<!-- If you derive willingness to pay values, state whether you estimate in preference space or directly in willingness to pay space. The two parameterisations are theoretically equivalent but behave differently in practice: models in preference space can produce poorly behaved, sometimes extreme willingness to pay distributions when the cost coefficient is random, whereas models in willingness to pay space give better behaved welfare estimates but can be harder to converge [@train2005discrete]. If the choice depends on the data, state the criterion you will use to decide. -->
 
 Enter your response here.
 
 
 ## Do you control for unobserved and observed heterogeneity, if yes, how (e.g., interactions, membership function in latent class model)?
-<!-- Most applications control for unobserved heterogeneity via mixed logit or latent class models and for observed heterogeneity via interaction terms between attributes and alternative-specific constants and case-specific variables such as age or gender. List how you plan to deal with heterogeneity. Guidance on selecting the right model for unobserved heterogeneity can be found in Sagebiel (2017). Guidance on choosing distributions in mixed logit specifications can be found in Mariel et al. (2013) -->
+<!-- Most applications control for unobserved heterogeneity via mixed logit or latent class models and for observed heterogeneity via interaction terms between attributes and alternative-specific constants and case-specific variables such as age or gender. List how you plan to deal with heterogeneity. Guidance on selecting the right model for unobserved heterogeneity can be found in @sagebiel2017preference. Guidance on choosing distributions in mixed logit specifications can be found in @mariel2013selecting -->
 
 Enter your response here.
 
@@ -267,7 +267,7 @@ Enter your response here.
 
 # Part D: Validity
 ## Do you use any measures to enhance validity and reduce hypothetical bias?
-<!-- The stated preferences literature suffers from validity issues and hypothetical bias and other biases. Several measures have been developed to counteract these biases. Explain in detail which ones you use and if not, why not. See Johnston et al. (2017) for best practices. -->
+<!-- The stated preferences literature suffers from validity issues and hypothetical bias and other biases. Several measures have been developed to counteract these biases. Explain in detail which ones you use and if not, why not. See @johnston2017contemporary for best practices. -->
 
 Enter your response here.
 
