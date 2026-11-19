@@ -23,7 +23,8 @@ output: prereg::prereg_pdf
 
 ## Dropdown options
 ```{r setup, include=FALSE}
-
+library ("tibble")
+library("glue")
 type_levels <- c(
   "Study design",
   "Inclusion/exclusion criteria",
@@ -54,70 +55,48 @@ timing_levels <- c(
 )
 ```
 
-## Deviations table
-
 
 ```{r}
-dev_table <- data.frame(
-  `No.` = c("1", "2", "3"),
-  Details = c(
-    "Type: type\\_levels \\newline Reason: reason\\_levels \\newline Timing: timing\\_levels",
-    "Type: type\\_levels \\newline Reason: reason\\_levels \\newline Timing: timing\\_levels",
-    "Type: type\\_levels \\newline Reason: reason\\_levels \\newline Timing: timing\\_levels"
-  ),
-  `Original Wording` = c(
-    "Provide the wording from the original preregistration, or a description of what the original preregistration plan was.",
-    "",
-    ""
-  ),
-  `Description` = c(
-    "Provide a narrative description and justification for the deviation.",
-    "",
-    ""
-  ),
-  `Reader Impact` = c(
-    "Provide a narrative description of whether and how the deviation should affect the readers’ interpretation of the study and/or results.",
-    "",
-    ""
-  ),
-  check.names = FALSE,
-  stringsAsFactors = FALSE
+dev_table <- tribble(
+  ~`No.`, ~`Details`, ~`Original Wording`, ~`Description`, ~`Reader Impact`,
+  "1",
+  glue("Type: {type_levels[2]} \\newline Reason: {reason_levels[1]} \\newline Timing: {timing_levels[3]}"),
+  "Provide the wording from the original preregistration, or a description of what the original preregistration plan was.",
+  "Provide a narrative description and justification for the deviation.",
+  "Provide a narrative description of whether and how the deviation should affect the readers’ interpretation of the study and/or results.",
+  "2",
+  glue("Type: {type_levels[1]} \\newline Reason: {reason_levels[1]} \\newline Timing: {timing_levels[1]}"),
+  "",
+  "",
+  "",
+  "3",
+  glue("Type: {type_levels[1]} \\newline Reason: {reason_levels[1]} \\newline Timing: {timing_levels[1]}"),
+  "",
+  "",
+  ""
 )
 ```
 
-## Unregistered steps table
-
-
 ```{r}
-unreg_table <- data.frame(
-  `No.` = c("1", "2", "3"),
-  Details = c(
-    "Type: type\\_levels \\newline Timing: timing\\_levels",
-    "Type: type\\_levels \\newline Timing: timing\\_levels",
-    "Type: type\\_levels \\newline Timing: timing\\_levels"
-  ),
-  `Original Wording` = c(
-    "If applicable, provide the wording from the original preregistration that was unregistered or not specific enough. If the issue was not addressed in the preregistration at all, please note that here as well. ",
-    "",
-    ""
-  ),
-  `Description` = c(
-    "Provide a narrative description of how the unregistered step was handled, and a justification for that approach.",
-    "",
-    ""
-  ),
-  `Reader Impact` = c(
-    "Provide a narrative description of whether and how the unregistered step should affect the readers’ interpretation of the study and/or results.",
-    "",
-    ""
-  ),
-  check.names = FALSE,
-  stringsAsFactors = FALSE
+unreg_table <- tribble(
+  ~`No.`, ~`Details`, ~`Original Wording`, ~`Description`, ~`Reader Impact`,
+  "1",
+  glue("Type: {type_levels[6]} \\newline Timing: {timing_levels[3]}"),
+  "If applicable, provide the wording from the original preregistration that was unregistered or not specific enough. If the issue was not addressed in the preregistration at all, please note that here as well.",
+  "Provide a narrative description of how the unregistered step was handled, and a justification for that approach.",
+  "Provide a narrative description of whether and how the unregistered step should affect the readers’ interpretation of the study and/or results.",
+  "2",
+  glue("Type: {type_levels[1]} \\newline Timing: {timing_levels[1]}"),
+  "",
+  "",
+  "",
+  "3",
+  glue("Type: {type_levels[1]} \\newline Timing: {timing_levels[1]}"),
+  "",
+  "",
+  ""
 )
 ```
-
-## Render tables
-
 
 ```{r}
 papaja::apa_table(
@@ -146,3 +125,12 @@ papaja::apa_table(
   font_size = "scriptsize"
 )
 ```
+
+
+# References
+## 
+\vspace{-2pc}
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{-1in}
+\setlength{\parskip}{8pt}
+\noindent
