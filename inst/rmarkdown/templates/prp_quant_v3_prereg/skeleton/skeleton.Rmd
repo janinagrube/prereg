@@ -202,7 +202,7 @@ Enter your response here.
 
 
 ## I3
-### Hypotheses (H1, H2, …)
+### Hypotheses (H1, H2, ...)
 <!-- If you test hypotheses in your study: Provide hypotheses for predicted results in terms of the specific constructs that will inform the independent and dependent variables (e.g., main effects, interactions), if available. If multiple hypotheses, uniquely number them (e.g., H1, H2a, H2b) and refer to them the same way at other points in this registration document and the manuscript. -->
 
 Enter your response here.
