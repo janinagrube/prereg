@@ -15,16 +15,24 @@ affiliation:
   - id          : 2
     institution : Second institution
 
-output: prereg::prereg_pdf
+bibliography   : "r-references.bib"
+nocite         : |
+  @willroth2024
 
+floatsintext   : yes
+header-includes:
+  - \usepackage{multirow}
+  - \usepackage{booktabs}
+  - \usepackage{array}
+  - \usepackage{pdflscape}
+
+output: papaja::apa6_pdf
 ---
 
-# Preregistration deviation table
-
-## Dropdown options
 ```{r setup, include=FALSE}
-library ("tibble")
+library("tibble")
 library("glue")
+library("papaja")
 type_levels <- c(
   "Study design",
   "Inclusion/exclusion criteria",
@@ -53,31 +61,29 @@ timing_levels <- c(
   "After data access",
   "After results known"
 )
+
 ```
 
-
-```{r}
+```{r deviations-table}
+# Jede Zeile = eine Abweichung. Details-Spalte: Type / Reason / Timing,
+# getrennt durch \\newline (Werte stammen aus den *_levels oben).
 dev_table <- tribble(
   ~`No.`, ~`Details`, ~`Original Wording`, ~`Description`, ~`Reader Impact`,
   "1",
-  glue("Type: {type_levels[2]} \\newline Reason: {reason_levels[1]} \\newline Timing: {timing_levels[3]}"),
+  glue("Type: {type_levels[3]} \\newline Reason: {reason_levels[1]} \\newline Timing: {timing_levels[3]}"),
   "Provide the wording from the original preregistration, or a description of what the original preregistration plan was.",
   "Provide a narrative description and justification for the deviation.",
   "Provide a narrative description of whether and how the deviation should affect the readers’ interpretation of the study and/or results.",
   "2",
   glue("Type: {type_levels[1]} \\newline Reason: {reason_levels[1]} \\newline Timing: {timing_levels[1]}"),
-  "",
-  "",
-  "",
+  "", "", "",
   "3",
   glue("Type: {type_levels[1]} \\newline Reason: {reason_levels[1]} \\newline Timing: {timing_levels[1]}"),
-  "",
-  "",
-  ""
+  "", "", ""
 )
 ```
 
-```{r}
+```{r unregistered-table}
 unreg_table <- tribble(
   ~`No.`, ~`Details`, ~`Original Wording`, ~`Description`, ~`Reader Impact`,
   "1",
@@ -87,45 +93,95 @@ unreg_table <- tribble(
   "Provide a narrative description of whether and how the unregistered step should affect the readers’ interpretation of the study and/or results.",
   "2",
   glue("Type: {type_levels[1]} \\newline Timing: {timing_levels[1]}"),
-  "",
-  "",
-  "",
+  "", "", "",
   "3",
   glue("Type: {type_levels[1]} \\newline Timing: {timing_levels[1]}"),
-  "",
-  "",
-  ""
+  "", "", ""
 )
 ```
 
-```{r}
-papaja::apa_table(
-  list(
-    "\\textbf{Preregistration Deviations}" = dev_table,
-    "\\textbf{Unregistered Steps}" = unreg_table
-  ),
-  caption = "Summary of preregistration deviations and unregistered steps.",
-  col.names = c(
-    "No.",
-    "Details",
-    "Original Wording",
-    "Description",
-    "Reader Impact"
-  ),
-  align = c(
-    "c",
-    "p{3cm}",
-    "p{5cm}",
-    "p{6cm}",
-    "p{4cm}"
-  ),
-  escape = FALSE,
-  landscape = TRUE,
-  merge_method = "table_spanner",
-  font_size = "scriptsize"
+```{r render-tables, results='asis', echo=FALSE}
+# Breite der drei Textspalten
+breite <- "5.0cm"
+
+# Macht aus einem tribble die LaTeX-Zeilen für die Tabelle.
+# Pro Eintrag gibt es eine Zeile je Detail (Type, Reason, Timing),
+# Nummer und Texte gehen über alle diese Zeilen.
+tabellenzeilen <- function(tbl) {
+  zeilen <- c()
+
+  for (r in 1:nrow(tbl)) {
+    nr      <- tbl[[1]][r]
+    details <- strsplit(as.character(tbl[[2]][r]), "\\newline", fixed = TRUE)[[1]]
+    details <- trimws(details)
+    texte   <- as.character(c(tbl[[3]][r], tbl[[4]][r], tbl[[5]][r]))
+    n       <- length(details)
+
+    # je länger der Text, desto höher muss die Zeile sein
+    hoehe   <- max(1.5, max(nchar(texte)) / 27 / n + 0.3)
+    stuetze <- sprintf("\\rule[-%.2f\\baselineskip]{0pt}{%.2f\\baselineskip}", hoehe / 2, hoehe)
+
+    for (i in 1:n) {
+      label <- sub(":.*", "", details[i])
+      wert  <- trimws(sub("^[^:]*:", "", details[i]))
+      wert  <- gsub("/", "/\\\\allowbreak ", wert)  # Umbruch nach "/" erlauben
+
+      if (i == 1) {
+        nummer  <- sprintf("\\multirow[t]{%d}{*}{%s}", n, nr)
+        spalten <- ifelse(nchar(texte) > 0,
+                          sprintf("\\multirow[t]{%d}{%s}{\\raggedright\\itshape %s}", n, breite, texte),
+                          "")
+      } else {
+        nummer  <- ""
+        spalten <- c("", "", "")
+      }
+
+      zeile <- paste(c(nummer, paste0(label, stuetze), wert, spalten), collapse = " & ")
+      linie <- if (i < n) "\\cline{2-3}" else "\\hline"
+      zeilen <- c(zeilen, paste0(zeile, " \\\\", linie))
+    }
+  }
+
+  zeilen
+}
+
+# Titel und Spaltenüberschriften
+kopf <- function(titel, beschreibung) {
+  c("\\specialrule{1.2pt}{0pt}{0pt}",
+    paste0("\\multicolumn{6}{l}{\\textbf{", titel, "}} \\\\"),
+    "\\hline",
+    paste0("\\multicolumn{1}{c|}{\\#} & \\multicolumn{2}{c|}{Details} & ",
+           "\\multicolumn{1}{c|}{Original Wording} & ",
+           "\\multicolumn{1}{c|}{", beschreibung, "} & ",
+           "\\multicolumn{1}{c}{Reader Impact} \\\\"),
+    "\\hline")
+}
+
+# Spaltenformat: Nummer, Label, Wert, 3 Textspalten
+sp <- function(b) paste0(">{\\raggedright\\arraybackslash}p{", b, "}")
+spaltenformat <- paste("c", sp("1.5cm"), sp("3.6cm"), sp(breite), sp(breite), sp(breite), sep = "|")
+
+note <- paste("\\textit{Note.} Choose one characteristic for each dropdown menu.",
+              "If more than one type or reason apply to the same deviation, then replace the dropdown menu with details.",
+              "Provide one deviation per row, and add or delete rows as needed.")
+
+cat(
+  "\\begin{landscape}\\begin{table}[!htbp]",
+  "\\caption{Summary of preregistration deviations and unregistered steps.}",
+  "{\\setlength{\\tabcolsep}{3pt}\\renewcommand{\\arraystretch}{1.1}\\renewcommand{\\baselinestretch}{1}\\scriptsize",
+  paste0("\\begin{tabular}{", spaltenformat, "}"),
+  kopf("Deviations", "Deviation Description"),
+  tabellenzeilen(dev_table),
+  kopf("Unregistered Steps", "Unregistered Step Description"),
+  tabellenzeilen(unreg_table),
+  "\\specialrule{1.2pt}{0pt}{0pt}",
+  "\\end{tabular}}",
+  "\\par\\vspace{4pt}",
+  paste0("{\\renewcommand{\\baselinestretch}{1}\\footnotesize\\noindent ", note, "\\par}"),
+  "\\end{table}\\end{landscape}",
+  sep = "\n"
 )
 ```
-
 
 # References
 ## 
