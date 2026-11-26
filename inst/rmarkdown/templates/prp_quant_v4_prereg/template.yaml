@@ -1,0 +1,15 @@
+name: Psychological Research Preregistration-Quantitative (aka PRP-QUANT, v4) Template
+description: >
+  This document was created using the Psychological Research Preregistration-Quantitative (aka PRP-QUANT) Template, version 4 (available at https://www.psycharchives.org/). 
+  
+  The template was originally developed by a task force composed of members of the American Psychological Association (APA), the British Psychological Society (BPS), the German Psychological Society (DGPs), the Center for Open Science (COS), and the Leibniz Institute for Psychology (ZPID). Read more about the intent and creation of the template in this journal article: 
+  
+  Bosnjak, M., Fiebach, C. J., Mellor, D., Mueller, S., O'Connor, D. B., Oswald, F. L., & Sokol, R. I. (2022). A template for preregistration of quantitative research in psychology: Report of the joint psychological societies preregistration task force. American Psychologist, 77(4), 602–615. https://doi.org/10.1037/amp0000879
+  
+  This template is licensed under the CC BY 4.0 license. Thus, you are free to share and adapt the content, given that you attribute the source and indicate whether changes were made.
+  
+  Version 4 was created based on findings from Spitzer, Kroeger & Mueller (2026, https://doi.org/10.1177/25152459261432216), the minimum criteria for preregistrations proposed by Hahn et al. (2025, https://doi.org/10.1177/25152459251357568), as well as hackathons at SIPS 2025 and the Open Science Retreat 2025.
+  
+  To receive a timestamp and a DOI, submit your preregistration protocol as a PDF to PsychArchives via https://pasa.psycharchives.org/. Find out more about the Leibniz Institute for Psychology (ZPID) and our preregistration service PreReg by visiting https://leibniz-psychology.org/ and http://prereg-psych.org/, respectively.
+
+create_dir: false
